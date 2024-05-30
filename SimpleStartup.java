@@ -1,5 +1,7 @@
 package HeadFirstJava.chapter5writingaprogram.startupgame;
 
+import java.util.Arrays;
+
 public class SimpleStartup {
     private int[] locationCell;
     private int numOfHits;
@@ -19,8 +21,6 @@ public class SimpleStartup {
         }
         if (numOfHits == locationCell.length)
             result = "kill";
-
-        System.out.println(result);
         return result;
     }
 }
