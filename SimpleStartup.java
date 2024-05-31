@@ -1,7 +1,5 @@
 package HeadFirstJava.chapter5writingaprogram.startupgame;
 
-import java.util.Arrays;
-
 public class SimpleStartup {
     private int[] locationCell;
     private int numOfHits;
